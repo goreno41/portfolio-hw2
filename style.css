@@ -82,6 +82,7 @@ body {
     margin-right: 25%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 5px;
+    display: block;
     
 }
 
@@ -149,5 +150,19 @@ body {
 
 .contactlist li a{
     color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    
 }
 
