@@ -45,30 +45,38 @@ body {
     color: var(--text);
 }
 
-.aboutme h2 {
-    flex: 1;
-    background-color: var(--background);
-    padding: 25px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 35%;
-    margin-right: 35%;
-    background-color: white;
-    border: 3px solid var(--border);
+.projectCard {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    border: 3px solid var(--accent);
     border-radius: 10px;
 }
 
-.work h2 {
+.linkButton {
+    background-color: var(--accent);
+    border-color: var(--accent);
+}
+
+.linkButton:hover{
+    background-color: var(--background);
+}
+
+.aboutme h2 {
     flex: 1;
     background-color: var(--background);
-    padding: 25px;
+    padding: 10px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 35%;
     margin-right: 35%;
     background-color: white;
-    border: 3px solid var(--border);
+    border: 3px solid white;
     border-radius: 10px;
+}
+
+.text {
+    font-size: large
 }
 
 .syntax {
@@ -151,6 +159,7 @@ body {
 .contactlist li a{
     color: #ffffff;
 }
+
 
 @media screen and (max-width: 992px) {
     body {
